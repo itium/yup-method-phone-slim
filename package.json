@@ -1,6 +1,6 @@
 {
   "name": "@itium/yup-method-phone-slim",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Yup method for validating phones using regex.",
   "repository": "https://github.com/itium/yup-method-phone-slim.git",
   "author": "Rodrigo Palomares <rodrigo.palomares@itium.mx>",
@@ -9,7 +9,7 @@
   "main": "dist/yup-method-phone-slim.cjs.js",
   "module": "dist/yup-method-phone-slim.esm.js",
   "browser": "dist/yup-method-phone-slim.umd.js",
-  "types": "dist/yup-method-phone-slim.d.ts",
+  "types": "dist/src/yup-method-phone-slim.d.ts",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint --fix 'src/**/*.ts'",
